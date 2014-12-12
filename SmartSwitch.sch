@@ -4081,10 +4081,10 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <part name="VCC" library="wirepad" deviceset="2,15/1,0" device=""/>
 <part name="GND" library="wirepad" deviceset="2,15/1,0" device=""/>
 <part name="MOSI" library="wirepad" deviceset="2,15/1,0" device=""/>
-<part name="BUTTON1" library="wirepad" deviceset="2,15/1,0" device=""/>
-<part name="BUTTON2" library="wirepad" deviceset="2,15/1,0" device=""/>
-<part name="BUTTON3" library="wirepad" deviceset="2,15/1,0" device=""/>
-<part name="BUTTON4" library="wirepad" deviceset="2,15/1,0" device=""/>
+<part name="BTN1" library="wirepad" deviceset="2,15/1,0" device=""/>
+<part name="BTN2" library="wirepad" deviceset="2,15/1,0" device=""/>
+<part name="BTN3" library="wirepad" deviceset="2,15/1,0" device=""/>
+<part name="BTN4" library="wirepad" deviceset="2,15/1,0" device=""/>
 <part name="OUT" library="wirepad" deviceset="2,15/1,0" device=""/>
 <part name="MCP23017" library="adafruit" deviceset="MCP23017" device="SP"/>
 <part name="LEDS" library="adafruit" deviceset="PINHD-1X3" device=""/>
@@ -4114,10 +4114,10 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <instance part="VCC" gate="1" x="-38.1" y="66.04"/>
 <instance part="GND" gate="1" x="-38.1" y="60.96"/>
 <instance part="MOSI" gate="1" x="-38.1" y="55.88"/>
-<instance part="BUTTON1" gate="1" x="12.192" y="86.36" rot="R180"/>
-<instance part="BUTTON2" gate="1" x="54.61" y="86.36" rot="R180"/>
-<instance part="BUTTON3" gate="1" x="97.282" y="86.36" rot="R180"/>
-<instance part="BUTTON4" gate="1" x="136.398" y="86.36" rot="R180"/>
+<instance part="BTN1" gate="1" x="12.192" y="86.36" rot="R180"/>
+<instance part="BTN2" gate="1" x="54.61" y="86.36" rot="R180"/>
+<instance part="BTN3" gate="1" x="97.282" y="86.36" rot="R180"/>
+<instance part="BTN4" gate="1" x="136.398" y="86.36" rot="R180"/>
 <instance part="OUT" gate="1" x="-38.1" y="50.546"/>
 <instance part="MCP23017" gate="G$1" x="109.22" y="30.48"/>
 <instance part="LEDS" gate="A" x="13.97" y="41.91"/>
@@ -4222,28 +4222,28 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <net name="N$1" class="0">
 <segment>
 <pinref part="BUTTON" gate="G$1" pin="SIG2"/>
-<pinref part="BUTTON1" gate="1" pin="P"/>
+<pinref part="BTN1" gate="1" pin="P"/>
 <wire x1="2.54" y1="86.36" x2="9.652" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="BUTTON" gate="G$2" pin="SIG2"/>
-<pinref part="BUTTON2" gate="1" pin="P"/>
+<pinref part="BTN2" gate="1" pin="P"/>
 <wire x1="40.64" y1="86.36" x2="52.07" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="BUTTON" gate="G$3" pin="SIG2"/>
-<pinref part="BUTTON3" gate="1" pin="P"/>
+<pinref part="BTN3" gate="1" pin="P"/>
 <wire x1="85.09" y1="86.36" x2="94.742" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="BUTTON" gate="G$4" pin="SIG2"/>
-<pinref part="BUTTON4" gate="1" pin="P"/>
+<pinref part="BTN4" gate="1" pin="P"/>
 <wire x1="125.73" y1="86.36" x2="133.858" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
