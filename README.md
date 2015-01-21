@@ -1,7 +1,7 @@
 SmartSwitchPCB
 ==============
 
-Eagle and Gerber Files for the PCB of the SmartSwitch (https://github.com/phhe/spark_smartswitch) with the Spark Core.
+Eagle and Gerber Files for the PCB of the [SmartSwitch](https://github.com/phhe/spark_smartswitch) with the Spark Core.
 
 ## Layout 
 ![Board Layout](SmartSwitch.png)
@@ -26,6 +26,6 @@ Eagle and Gerber Files for the PCB of the SmartSwitch (https://github.com/phhe/s
 ## Case
 
 The SmartSwitch Case is for the ButtonPad version of the SmartSwitch.
-It is based on a Layout from MakerCase (http://makercase.com) and the Arduinome eXperimenter’s Case (http://interactives.artsrn.ualberta.ca/?page_id=133).
+It is based on a Layout from [MakerCase](http://makercase.com) and the  [Arduinome eXperimenter’s Case](http://interactives.artsrn.ualberta.ca/?page_id=133).
 
-The *.eps file can be ordered at [ponoko.com](http://ponoko.com) or [formulor.de][http://formulor.de]
+The *.eps file can be ordered at [ponoko.com](http://ponoko.com) or [formulor.de](http://formulor.de)
